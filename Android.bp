@@ -1,0 +1,5 @@
+cc_binary {
+    name: "uwb_driver_test",
+    srcs: ["uwb_driver_test.c"],
+}
+
