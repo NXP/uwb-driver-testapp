@@ -94,7 +94,7 @@ int main()
     uint8_t temp[UCI_MAX_DATA_LEN];
 
     printf("\nOpening Driver\n");
-    fd = open("/dev/sr1xx", O_RDWR);
+    fd = open("/dev/srxxx", O_RDWR);
     if(fd < 0) {
         printf("Cannot open device file...\n");
         return 0;

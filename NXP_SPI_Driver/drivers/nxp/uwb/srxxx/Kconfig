@@ -1,0 +1,6 @@
+#
+# Uwb driver configuration
+#
+
+config NXP_UWB_SRXXX
+	tristate "Nxp SR100 UCI protocol driver (SPI) devices"
